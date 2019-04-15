@@ -89,7 +89,7 @@ func InsertToDB(db *sql.DB, ds []Demo) {
 			panic(err)
 		}
 	}
-	fmt.Println("incert record finished")
+	fmt.Println("insert record finished")
 }
 
 func main() {
